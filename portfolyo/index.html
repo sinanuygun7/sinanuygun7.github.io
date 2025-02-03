@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="shortcut icon" href="../assets/icon/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    
+     
+    <nav class="navbar navbar-expand-lg position-relative">
+        <div class="container-fluid">
+            <a class="navbar-brand custom-btn-orange" href="#">Sinan Uyğun</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <div class="navbar-nav me-auto">
+                    <a class="nav-link active custom-btn-orange" aria-current="page" href="profile.html">Home</a>
+                    <a class="nav-link  custom-btn-orange" aria-current="page" href="myproject.html">My Projects</a>
+                </div>
+                
+            </div>
+            <img src="../assets/image/banner.png" alt="Banner Image" class="img-fluid rounded" style="width: 150px; height: 50px; position: absolute; left: 50%; transform: translateX(-50%);">
+        </div>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active custom-bg-body-black" aria-current="page">Home</li>
+        </ol>
+    </nav>
+    
+    <div class="container md-5">
+
+        <h1 class="text-center mt-3 mb-5">Sinan UYĞUN</h1>
+
+        <img 
+            src="../assets/image/logo.png" 
+            class="img-fluid rounded mx-auto d-block mb-5" 
+            alt="Logo Image" 
+            style="width: 150px; height: 250px;"
+        >
+        
+
+        <h2 class="text-center mb-3" >CONTACT</h2>
+
+        <div class="btn-group btn-group-lg g-5" role="group" style="display: flex; justify-content: center; align-items: center; ">
+            <button class="btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#gmailinfo">
+                <img src="../assets/icon/gmail.png" class="img-fluid rounded mx-auto d-block" alt="Gmail Icon" style="width: 48px; height: 48px;">
+            </button>
+            <button class="btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#mailinfo">
+                <img src="../assets/icon/mail.png" class="img-fluid rounded mx-auto d-block" alt="E-Mail Icon" style="width: 48px; height: 48px;">
+            </button>
+            <button type="button" class="btn btn-lg" onclick="window.open('https://github.com/sinanuygun7', '_blank');">
+                <img src="../assets/icon/github.png" class="img-fluid rounded mx-auto d-block"  alt="Github Icon" style="width: 48px; height: 48px;">
+            </button>
+            <button type="button" class="btn btn-lg" onclick="window.open('https://gitlab.com/owLLord', '_blank');">
+                <img src="../assets/icon/gitlab.png" class="img-fluid rounded mx-auto d-block"  alt="Gitlab Icon" style="width: 48px; height: 48px;">
+            </button>
+            <button type="button" class="btn btn-lg" onclick="window.open('https://bsky.app/profile/sinanuygun.bsky.social', '_blank');">
+                <img src="../assets/icon/bluesky.png" class="img-fluid rounded mx-auto d-block"  alt="Bluesky Icon" style="width: 48px; height: 48px;">
+            </button>
+            <button type="button" class="btn btn-lg" onclick="window.open('https://www.linkedin.com/in/sinanuygun', '_blank');">
+                <img src="../assets/icon/linkedn.png" class="img-fluid rounded mx-auto d-block"  alt="Linkedn Icon" style="width: 48px; height: 48px;">
+            </button>
+            <button type="button" class="btn btn-lg" onclick="window.open('https://www.youtube.com/@SinanUygunOfficial', '_blank');">
+                <img src="../assets/icon/youtube.png" class="img-fluid rounded mx-auto d-block"  alt="Linkedn Icon" style="width: 48px; height: 48px;">
+            </button>
+        </div>
+    </div>
+    <div class="container text-center mt-5">
+        <div class="row row-cols-1 align-self-center">
+            <div class="col align-self-center">
+                <div class="collapse collapse-horizontal" id="gmailinfo">
+                    <div class="card card-body " style="width: min-content; display: grid;">
+                        sinanuygunofficial@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="col align-self-center">
+                <div class="collapse collapse-horizontal" id="mailinfo">
+                    <div class="card card-body " style="width: min-content; display: grid;">
+                        sinan_uygun@windowslive.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container md-5">
+        <h2 class="text-center mt-5 mb-3" >SOFTWARE LANGUAGES</h2>
+        <ul class="nav nav-tabs" id="softwareTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="language-tab" data-bs-toggle="tab" data-bs-target="#language-tab-pane" type="button" role="tab" aria-controls="language-tab-pane" aria-selected="true">Software Languages</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="experiance-tab" data-bs-toggle="tab" data-bs-target="#experiance-tab-pane" type="button" role="tab" aria-controls="experiance-tab-pane" aria-selected="false">Software Languages Experiance</button>
+            </li>
+          </ul>
+          <div class="tab-content mb-5" id="languageContent">
+            <div class="tab-pane fade show active" id="language-tab-pane" role="tabpanel" aria-labelledby="language-tab" tabindex="0">
+                <div class="row align-items-center mt-3">
+                    <div class="col text-center">
+                        <img src="../assets/icon/c-sharp.png" alt="C-Sharp Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">C#</label>
+                    </div>
+                    <div class="col text-center">
+                        <img src="../assets/icon/c.png" alt="C Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">C</label>
+                    </div>
+                    <div class="col text-center">
+                        <img src="../assets/icon/html.png" alt="Html Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">Html</label>
+                    </div>
+                    <div class="col text-center">
+                        <img src="../assets/icon/css.png" alt="Css Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">Css</label>
+                    </div>
+                    <div class="col text-center">
+                        <img src="../assets/icon/sass.png" alt="Sass Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">Sass</label>
+                    </div>
+                    <div class="col text-center">
+                        <img src="../assets/icon/dart.png" alt="Dart Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">Dart</label>
+                    </div>
+                    <div class="col text-center">
+                        <img src="../assets/icon/flutter.png" alt="Flutter Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">Flutter</label>
+                    </div>
+                    <div class="col text-center">
+                        <img src="../assets/icon/java.png" alt="Java Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">Java</label>
+                    </div>
+                    <div class="col text-center">
+                        <img src="../assets/icon/python.png" alt="Python Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                        <label for="">Python</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="experiance-tab-pane" role="tabpanel" aria-labelledby="experiance-tab" tabindex="0">
+                <div class="col mt-3">
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row align-items-center">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/c-sharp.png" alt="C-Sharp Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">C#</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="C# Experience" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 20%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/c.png" alt="C Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">C</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="C Experience" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 40%;">Junior</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/css.png" alt="Css Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Css</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Css Experience" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 20%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/html.png" alt="Html Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Html</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 40%;">Junior</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/sass.png" alt="Sass Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Sass</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Sass Experience" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 20%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/dart.png" alt="Dart Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Dart</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Dart Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/flutter.png" alt="Flutter Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Flutter</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Flutter Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/java.png" alt="Java Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Java</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Java Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/python.png" alt="Python Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Python</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Python Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>          
+    </div>
+
+
+
+    <div class="container mt-xxl-5 mb-xxl-5">
+        <h2 class="text-center mt-5 mb-3" >TOOLS</h2>
+        <div class="col mt-3">
+
+            <ul class="nav nav-tabs" id="toolTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="tool-tab" data-bs-toggle="tab" data-bs-target="#tool-tab-pane" type="button" role="tab" aria-controls="tool-tab-pane" aria-selected="true">Tools</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="tool-experiance-tab" data-bs-toggle="tab" data-bs-target="#tool-experiance-tab-pane" type="button" role="tab" aria-controls="tool-experiance-tab-pane" aria-selected="false">Tools Experiance</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="toolContent">
+                <div class="tab-pane fade show active" id="tool-tab-pane" role="tabpanel" aria-labelledby="tool-tab" tabindex="0">
+                    <div class="row text-center align-items-center mt-3">
+                        <div class="col text-center">
+                            <img src="../assets/icon/github.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Github</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/gitlab.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Gitlab</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/git.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Git</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/anaconda.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Anaconda</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/aseprite.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Aseprite</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/blender.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Blender</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/firebase.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Fİrebase</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/krita.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Krita</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/mongodb.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">MongoDB</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/mysql.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">MySql</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/postman.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Postman</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/visual-studio-code.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">VS Code</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/visual-studio-code.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">VS Code</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/visual-studio.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Visual Studio</label>
+                        </div>
+                        <div class="col text-center">
+                            <img src="../assets/icon/wordpress.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                            <label for="">Wordpress</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tool-experiance-tab-pane" role="tabpanel" aria-labelledby="tool-experiance-tab" tabindex="0">
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/github.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Github</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/gitlab.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Gitlab</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 20%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/git.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Git</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/anaconda.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Anaconda</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 40%;">Junior</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/aseprite.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Aseprite</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 20%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/blender.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Blender</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 20%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/firebase.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Fİrebase</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/krita.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Krita</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 40%;">Junior</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/mongodb.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">MongoDB</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 40%;">Junior</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/mysql.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">MySql</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 20%;">Beginner</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/postman.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Postman</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/visual-studio-code.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">VS Code</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                   
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/visual-studio.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Visual Studio</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 40%;">Junior</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card  mt-5">
+                        <div class="card-body">
+                            <a href="#" class="card-text">
+                                <div class="row text-center align-items-center mt-3">
+                                    <div class="col text-center">
+                                        <img src="../assets/icon/wordpress.png" alt="Github Icon" class="img-fluid rounded mx-auto d-block" style="width: 48px; height: 48px;">
+                                        <label for="">Wordpress</label>
+                                    </div>
+                                    <div class="col-6 col-md-8">
+                                        <div class="progress" role="progressbar" aria-label="Html Experience" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 25px;">
+                                            <div class="progress-bar custom-bg-body-orange" style="width: 60%;">Intermediate</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+            </div>      
+        </div>
+    </div>
+    <div class="row mt-5 mb-5 justify-content-center">
+        <div class="col-auto">
+            <a href="signature.html">
+                <button class="custom-button" style="max-width: 200px;">
+                    Sign here
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="card ">
+        <div class="card-body">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <nav aria-label="Signiture Navigaiton">
+                        <ul class="pagination ">
+                          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
