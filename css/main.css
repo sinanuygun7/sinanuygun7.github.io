@@ -49,6 +49,10 @@ label {
   font-family: "RobotoFlex", sans-serif;
 }
 
+ul li {
+  color: orange;
+}
+
 .card {
   background-color: #212529;
   border-radius: 10px;

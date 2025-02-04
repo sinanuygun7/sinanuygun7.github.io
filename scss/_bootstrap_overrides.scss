@@ -27,6 +27,12 @@ label{
     font-family: $font-robotoflex;
 }
 
+ul{
+    li{
+        color: $orange;
+    }
+}
+
 .card{
     background-color: $dark-blue;
     border-radius: 10px;
