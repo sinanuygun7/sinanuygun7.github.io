@@ -108,9 +108,9 @@ ul{
 }
 
 .navbar{
-    background-color: $orange;
-    border-color: $dark-orange;
-    color: $dark-blue;
+    background-color: $orange !important; ;
+    border-color: $dark-orange !important; ;
+    color: $dark-blue !important; ;
 
     .navbar-collapse{
         display: flex;

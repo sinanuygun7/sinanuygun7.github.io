@@ -11969,9 +11969,9 @@ ul li {
 }
 
 .navbar {
-  background-color: orange;
-  border-color: darkorange;
-  color: #212529;
+  background-color: orange !important;
+  border-color: darkorange !important;
+  color: #212529 !important;
 }
 .navbar .navbar-collapse {
   display: flex;
